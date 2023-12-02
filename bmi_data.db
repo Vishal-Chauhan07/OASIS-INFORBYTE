@@ -1,0 +1,11 @@
+SQLite format @  .WJ
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)%tablebmi_recordsbmi_records
+CREATE TABLE bmi_records
+             (id INTEGER PRIMARY KEY AUTOINCREMENT,
+              name TEXT,
+              weight REAL,
+              height REAL,
+              bmi REAL,
+              date TEXT)
+
